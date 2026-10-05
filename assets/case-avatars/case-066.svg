@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<radialGradient id="bg65" cx="50%" cy="35%"><stop offset="0" stop-color="#eab308" stop-opacity=".38"/><stop offset="1" stop-color="#181305"/></radialGradient>
+<linearGradient id="metal65" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f6f7fb"/><stop offset=".5" stop-color="#aeb7c7"/><stop offset="1" stop-color="#576173"/></linearGradient>
+<filter id="glow65" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="512" height="512" rx="88" fill="url(#bg65)"/>
+<circle cx="256" cy="238" r="186" fill="none" stroke="#fde68a" stroke-opacity=".22" stroke-width="3"/>
+<circle cx="256" cy="238" r="158" fill="none" stroke="#eab308" stroke-opacity=".16" stroke-width="2"/>
+<circle cx="328" cy="445" r="3" fill="#fde68a" opacity=".7"/>
+<circle cx="269" cy="97" r="3" fill="#fde68a" opacity=".7"/>
+<circle cx="188" cy="375" r="4" fill="#fde68a" opacity=".7"/>
+<circle cx="93" cy="258" r="3" fill="#fde68a" opacity=".7"/>
+<circle cx="109" cy="174" r="3" fill="#fde68a" opacity=".7"/>
+<circle cx="430" cy="315" r="4" fill="#fde68a" opacity=".7"/>
+<circle cx="56" cy="319" r="2" fill="#fde68a" opacity=".7"/>
+<circle cx="441" cy="168" r="4" fill="#fde68a" opacity=".7"/>
+<circle cx="442" cy="259" r="4" fill="#fde68a" opacity=".7"/>
+<circle cx="219" cy="291" r="3" fill="#fde68a" opacity=".7"/>
+<circle cx="270" cy="323" r="2" fill="#fde68a" opacity=".7"/>
+<circle cx="91" cy="86" r="4" fill="#fde68a" opacity=".7"/>
+<g transform="rotate(-11 256 250)">
+<path d="M128 310 Q132 128 256 104 Q380 128 384 310 Q330 390 256 392 Q182 390 128 310Z" fill="#111827" stroke="#eab308" stroke-width="9"/>
+<path d="M150 210 Q256 155 362 210 L348 286 Q256 323 164 286Z" fill="#eab308" opacity=".35"/>
+<rect x="160" y="208" width="192" height="62" rx="28" fill="#181305" stroke="#fde68a" stroke-width="6"/>
+<path d="M182 240 Q256 225 330 240" stroke="#fde68a" stroke-width="12" stroke-linecap="round"/>
+<circle cx="202" cy="240" r="9" fill="#fde68a"/><circle cx="310" cy="240" r="9" fill="#fde68a"/>
+</g>
+<path d="M256 92 Q256 58 292 45" stroke="#fde68a" stroke-width="8" fill="none" stroke-linecap="round"/>
+<circle cx="294" cy="44" r="11" fill="#3b82f6" filter="url(#glow65)"/>
+<path d="M170 180 L210 150" stroke="#3b82f6" stroke-width="10" stroke-linecap="round"/>
+<path d="M102 392 Q256 448 410 392" stroke="#fde68a" stroke-opacity=".5" stroke-width="7" fill="none"/>
+<g transform="translate(0 420)">
+<rect x="118" y="0" width="276" height="58" rx="22" fill="#080b14" stroke="#fde68a" stroke-width="4"/>
+<text x="256" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#fff" letter-spacing="2">OMG</text>
+</g>
+</svg>

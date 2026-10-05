@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<radialGradient id="bg26" cx="50%" cy="35%"><stop offset="0" stop-color="#ec4899" stop-opacity=".38"/><stop offset="1" stop-color="#1a0614"/></radialGradient>
+<linearGradient id="metal26" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f6f7fb"/><stop offset=".5" stop-color="#aeb7c7"/><stop offset="1" stop-color="#576173"/></linearGradient>
+<filter id="glow26" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="512" height="512" rx="88" fill="url(#bg26)"/>
+<circle cx="256" cy="238" r="186" fill="none" stroke="#f9a8d4" stroke-opacity=".22" stroke-width="3"/>
+<circle cx="256" cy="238" r="158" fill="none" stroke="#ec4899" stroke-opacity=".16" stroke-width="2"/>
+<circle cx="323" cy="448" r="6" fill="#f9a8d4" opacity=".7"/>
+<circle cx="259" cy="397" r="4" fill="#f9a8d4" opacity=".7"/>
+<circle cx="424" cy="304" r="2" fill="#f9a8d4" opacity=".7"/>
+<circle cx="79" cy="258" r="4" fill="#f9a8d4" opacity=".7"/>
+<circle cx="178" cy="342" r="3" fill="#f9a8d4" opacity=".7"/>
+<circle cx="391" cy="167" r="4" fill="#f9a8d4" opacity=".7"/>
+<circle cx="28" cy="33" r="6" fill="#f9a8d4" opacity=".7"/>
+<circle cx="203" cy="478" r="3" fill="#f9a8d4" opacity=".7"/>
+<circle cx="381" cy="265" r="3" fill="#f9a8d4" opacity=".7"/>
+<circle cx="111" cy="139" r="6" fill="#f9a8d4" opacity=".7"/>
+<circle cx="207" cy="126" r="6" fill="#f9a8d4" opacity=".7"/>
+<circle cx="404" cy="192" r="6" fill="#f9a8d4" opacity=".7"/>
+<g transform="rotate(-17 256 250)">
+<path d="M133 270 Q132 125 256 92 Q380 125 379 270 L350 350 Q256 402 162 350 Z" fill="#182033" stroke="#f9a8d4" stroke-width="8"/>
+<path d="M150 220 Q256 157 362 220 L350 140 Q256 84 162 140 Z" fill="#ec4899" opacity=".55"/>
+<rect x="148" y="218" width="216" height="86" rx="28" fill="#0d1320" stroke="#f9a8d4" stroke-width="7"/>
+<rect x="175" y="241" width="162" height="22" rx="11" fill="#f9a8d4" opacity=".85" filter="url(#glow26)"/>
+<path d="M165 306 L185 354 M347 306 L327 354" stroke="#f9a8d4" stroke-width="10" stroke-linecap="round"/>
+</g>
+<g transform="translate(0 420)">
+<rect x="118" y="0" width="276" height="58" rx="22" fill="#080b14" stroke="#f9a8d4" stroke-width="4"/>
+<text x="256" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#fff" letter-spacing="2">DROP 27</text>
+</g>
+</svg>
