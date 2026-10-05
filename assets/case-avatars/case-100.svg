@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<radialGradient id="bg99" cx="50%" cy="35%"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".38"/><stop offset="1" stop-color="#10061f"/></radialGradient>
+<linearGradient id="metal99" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f6f7fb"/><stop offset=".5" stop-color="#aeb7c7"/><stop offset="1" stop-color="#576173"/></linearGradient>
+<filter id="glow99" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="512" height="512" rx="88" fill="url(#bg99)"/>
+<circle cx="256" cy="238" r="186" fill="none" stroke="#c4b5fd" stroke-opacity=".22" stroke-width="3"/>
+<circle cx="256" cy="238" r="158" fill="none" stroke="#8b5cf6" stroke-opacity=".16" stroke-width="2"/>
+<circle cx="85" cy="426" r="2" fill="#c4b5fd" opacity=".7"/>
+<circle cx="301" cy="347" r="2" fill="#c4b5fd" opacity=".7"/>
+<circle cx="178" cy="216" r="6" fill="#c4b5fd" opacity=".7"/>
+<circle cx="433" cy="235" r="3" fill="#c4b5fd" opacity=".7"/>
+<circle cx="183" cy="261" r="3" fill="#c4b5fd" opacity=".7"/>
+<circle cx="312" cy="211" r="3" fill="#c4b5fd" opacity=".7"/>
+<circle cx="167" cy="480" r="3" fill="#c4b5fd" opacity=".7"/>
+<circle cx="213" cy="124" r="6" fill="#c4b5fd" opacity=".7"/>
+<circle cx="473" cy="257" r="3" fill="#c4b5fd" opacity=".7"/>
+<circle cx="191" cy="337" r="2" fill="#c4b5fd" opacity=".7"/>
+<circle cx="444" cy="294" r="4" fill="#c4b5fd" opacity=".7"/>
+<circle cx="43" cy="454" r="3" fill="#c4b5fd" opacity=".7"/>
+<g transform="rotate(7 256 250)">
+<circle cx="256" cy="250" r="150" fill="#8b5cf6" opacity=".92" stroke="#c4b5fd" stroke-width="8"/>
+<ellipse cx="200" cy="238" rx="32" ry="38" fill="#fff"/>
+<ellipse cx="312" cy="238" rx="32" ry="38" fill="#fff"/>
+<circle cx="197" cy="242" r="14" fill="#111827"/>
+<circle cx="310" cy="242" r="14" fill="#111827"/>
+<path d="M176 310 Q256 370 336 310" fill="none" stroke="#111827" stroke-width="13" stroke-linecap="round"/>
+<circle cx="178" cy="295" r="10" fill="#fff" opacity=".35"/><circle cx="334" cy="295" r="10" fill="#fff" opacity=".35"/>
+</g>
+<path d="M256 92 Q256 58 292 45" stroke="#c4b5fd" stroke-width="8" fill="none" stroke-linecap="round"/>
+<circle cx="294" cy="44" r="11" fill="#8b5cf6" filter="url(#glow99)"/>
+<path d="M170 180 L210 150" stroke="#8b5cf6" stroke-width="10" stroke-linecap="round"/>
+<g transform="translate(0 420)">
+<rect x="118" y="0" width="276" height="58" rx="22" fill="#080b14" stroke="#c4b5fd" stroke-width="4"/>
+<text x="256" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#fff" letter-spacing="2">SUS</text>
+</g>
+</svg>
