@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mishadrop-online
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: MISHADROP_DB
+        value: /app/data/mishadrop.db
+    disk:
+      name: mishadrop-data
+      mountPath: /app/data
+      sizeGB: 1

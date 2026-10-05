@@ -1,0 +1,13 @@
+services:
+  mishadrop:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      MISHADROP_DB: /app/data/mishadrop.db
+    volumes:
+      - mishadrop_data:/app/data
+    restart: unless-stopped
+volumes:
+  mishadrop_data:
